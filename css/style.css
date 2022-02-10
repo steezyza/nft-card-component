@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    height: 535px;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.equilibrium {
+    display: inline-block;
+    width: 290px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.section-title h3 {
+    letter-spacing: 0.1;
+    padding-left: 25px; 
+}
+
+.section-info p {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: hsl(215, 51%, 70%);
+}
+
+.section-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.ethereum {
+    display: inline;
+    height: 70px;
+    width: 50%;
+    padding-top: 13px;
+    position: absolute;
+}
+
+.ethereum-icon {
+    position: relative;
+    display: inline;
+    font-size: 5px;
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.ethereum-value {
+    position: relative;
+    display: inline;
+    padding-left: 3px;
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    padding-left: 250px;
+}

@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <meta name="author" content="Linda Kenqa">
+  <meta name="description" content="bukanindalo npc non profit company website">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | NFT preview card component</title>
@@ -15,16 +18,33 @@
   </style>
 </head>
 <body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
+  <div class="container">
+    <header>
+      <img class="equilibrium" src="images/image-equilibrium.jpg" alt="equilibrium image">
+    </header>
+    <section>
+      <div class="section-title">
+        <h3>Equilibrium #3429</h3>
+      </div> 
+      <div class="section-info">
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+      <div class="section-details">
+        <div class="ethereum">
+          <img class="ethereum-icon" src="images/icon-ethereum.svg" alt="ethereum icon">
+          <h5 class="ethereum-value">0.041 ETH</h5>
+        </div>
+        <div class="time">
+          <img class="time-icon" src="" alt="">
+          <p class="time-remainding"> 3 days left</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <img class="profile-photo" src="" alt="">
+      <p class="profile-name">Creation of<span>Jules Wyvern</span></p>
+    </footer>  
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
